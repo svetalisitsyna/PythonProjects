@@ -1,0 +1,267 @@
+/* Общие стили для тега body */
+body {
+    background: #fbeee6; /* Бежевый фон */
+    font-family: Tahoma, Arial, sans-serif;
+    color: #000000; /* Черный цвет текста */
+
+/* Стили для логотипа (картинки) в шапке */
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Стили для контейнера страницы archive.html */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Стили для заголовка статьи на странице archive.html */
+.post-title a {
+    color: #ff6b81; /* Розовый цвет ссылок */
+}
+
+/* Стили для заголовка статьи на странице article.html */
+.article .post-title a {
+    color: #ff6b81; /* Розовый цвет ссылок */
+}
+
+/* Стили для заголовка статьи на странице article.html */
+.article .post-title a {
+    color: #ffffff; /* Белый цвет ссылок */
+}
+
+/* Стили для блока с именем автора */
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+/* Стили для блока с датой создания статьи */
+.article-created-date {
+    text-align: right;
+}
+
+.content form {
+    width: 50%; /* Ширина формы */
+    margin: 0 auto; /* Центрирование формы */
+    padding: 20px; /* Внутренний отступ формы */
+    background-color: #ffffff; /* Фон формы */
+    border: 1px solid #ccc; /* Граница формы */
+    border-radius: 4px; /* Скругление углов формы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень формы */
+}
+
+.content form input[type=text],
+.content form textarea {
+    width: 100%; /* Ширина полей ввода в форме */
+    padding: 12px; /* Внутренний отступ полей ввода */
+    margin-bottom: 10px; /* Внешний отступ снизу полей ввода */
+    border: 1px solid #ccc; /* Граница полей ввода */
+    border-radius: 4px; /* Скругление углов полей ввода */
+    box-sizing: border-box; /* Учет padding и border в размере элемента */
+}
+
+.content form textarea {
+    height: 200px; /* Высота текстового поля */
+}
+
+.content form input[type=submit] {
+    width: 100%; /* Ширина кнопки "Сохранить" */
+    background-color: #af4cab; /* Цвет фона кнопки "Сохранить" */
+    color: white; /* Цвет текста на кнопке "Сохранить" */
+    padding: 14px 20px; /* Внутренний отступ кнопки "Сохранить" */
+    margin-top: 10px;
+}
+
+
+.content form input[type=text]:focus,
+.content form textarea:focus {
+    border-color: #c8a18c; /* Цвет границы при фокусировке поля ввода */
+    outline: none; /* Убирает стандартное выделение при фокусировке */
+    box-shadow: 0 0 5px #1abc9c; /* Тень при фокусировке поля ввода */
+}
+
+.content form input[type=submit]:hover {
+    background-color: #cf92c4; /* Цвет фона кнопки при наведении */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+.content form .errorlist {
+    color: #ff0000; /* Цвет текста ошибок */
+    margin-bottom: 10px; /* Внешний отступ снизу блока ошибок */
+}
+
+body {
+    background: #fbeee6; /* Бежевый фон */
+    font-family: Tahoma, Arial, sans-serif;
+    color: #000000; /* Черный цвет текста */
+}
+
+a {
+    color: #000000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav .right {
+    margin-left: auto;
+}
+
+.content form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content form input[type=text],
+.content form input[type=email],
+.content form input[type=password],
+.content form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.content form textarea {
+    height: 200px;
+}
+
+.content form input[type=submit] {
+    width: 100%;
+    background-color: #d2b48c;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content form input[type=submit]:hover {
+    background-color: #b8860b;
+    transition: background-color 0.3s ease;
+}
+
+.content form input[type=text]:focus,
+.content form input[type=email]:focus,
+.content form input[type=password]:focus,
+.content form textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 5px #1abc9c;
+}
+
+.content form .errorlist {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+/* Общие стили для страницы */
+body {
+    background: #fbeee6; /* Бежевый фон */
+    font-family: Tahoma, Arial, sans-serif;
+    color: #000000; /* Черный цвет текста */
+}
+
+/* Стили для ссылок */
+a {
+    color: #000000;
+}
+
+/* Стили для шапки */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav .right {
+    margin-left: auto;
+}
+
+/* Стили для контента */
+.content {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для формы */
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type=submit] {
+    width: 100%;
+    background-color: #d2b48c; /* Светло коричневый цвет кнопки */
+    color: #ffffff;
+    padding: 14px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: #b8860b;
+    transition: background-color 0.3s ease;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=password]:focus,
+form textarea:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 5px #1abc9c;
+}
+
+form .errorlist {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
