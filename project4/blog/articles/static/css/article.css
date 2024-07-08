@@ -1,0 +1,46 @@
+/* Общие стили для тега body */
+body {
+    background: #fbeee6; /* Бежевый фон */
+    font-family: Tahoma, Arial, sans-serif;
+    color: #000000; /* Черный цвет текста */
+
+/* Стили для логотипа (картинки) в шапке */
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Стили для контейнера страницы archive.html */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Стили для заголовка статьи на странице archive.html */
+.post-title a {
+    color: #ff6b81; /* Розовый цвет ссылок */
+}
+
+/* Стили для заголовка статьи на странице article.html */
+.article .post-title a {
+    color: #ff6b81; /* Розовый цвет ссылок */
+}
+
+/* Стили для заголовка статьи на странице article.html */
+.article .post-title a {
+    color: #ffffff; /* Белый цвет ссылок */
+}
+
+/* Стили для блока с именем автора */
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+/* Стили для блока с датой создания статьи */
+.article-created-date {
+    text-align: right;
+}
